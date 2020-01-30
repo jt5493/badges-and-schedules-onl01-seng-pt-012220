@@ -13,7 +13,7 @@ end
 def assign_rooms(speaker)
     speaker.each_with_index do |index|
       speaker.collect do |names|
-      return "Hello, #{names}! You'll be assigned to room #{index}!"
+      "Hello, #{names}! You'll be assigned to room #{index}!"
     end
   end
 end
